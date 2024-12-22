@@ -1,0 +1,36 @@
+.fvideo{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.fvideo video{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+.text, .button{
+    position: absolute;
+    color: #020202;
+    font-weight: bold;
+    z-index: 2;
+}
+.effect{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+.button{
+    top: 60%;
+}
