@@ -120,10 +120,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="container">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="lzw.php">LZW эффективное</a>
+                    <a class="nav-link active" aria-current="page" href="/Oliks9lb4/lzw.php">LZW эффективное</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="lzw2.php">LZW циферки</a>
+                    <a class="nav-link" href="/Oliks9lb4/lzw2.php">LZW циферки</a>
                 </li>
             </ul>
         </div>
