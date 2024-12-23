@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $binaryData = pack('n*', ...$compressed);
 
 
-        // header('Content-Type: application/octet-stream');
+        header('Content-Type: application/octet-stream');
         header('Content-Disposition: attachment; filename="compressed.txt"');
         echo $binaryData;
         exit;
